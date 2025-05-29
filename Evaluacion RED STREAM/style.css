@@ -1,0 +1,318 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+    color: #333;
+}
+
+.container {
+    max-width: 960px; 
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1, h2, h3 {
+    color: #2C3E50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+a {
+    color: #4682B4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #4682B4; 
+    padding: 15px 0;
+    color: white;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.hero-section {
+    background-color: #FFFFFF; 
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.hero-section h1 {
+    color: #4682B4;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.hero-image-box {
+    width: 80%;
+    max-width: 500px;
+    height: 250px; 
+    background-color: #A9B7C7; 
+    margin: 30px auto;
+    border: 1px solid #778899; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: bold;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background-color: #6A96C2; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.find-donor-section {
+    background-color: #F0F2F5; 
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.donor-form {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 600px; 
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4682B4; 
+}
+
+.form-group input,
+.form-group select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn-submit {
+    display: block; 
+    width: 100%;
+    padding: 12px;
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.timeline-title {
+    margin-top: 40px;
+    color: #4682B4; 
+}
+
+.timeline {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.timeline-item {
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #555;
+}
+
+.activities-table-section {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #6A96C2; 
+    color: white;
+}
+
+.table-pagination {
+    margin-top: 15px;
+    text-align: right; 
+    font-size: 0.9em;
+}
+
+.table-pagination a {
+    background-color: #ddd;
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: #333;
+}
+
+.about-us-section {
+    background-color: #F0F2F5;
+    padding: 40px 0;
+}
+
+.about-us-section p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.about-image-box {
+    width: 60%;
+    max-width: 400px;
+    height: 200px;
+    background-color: #A9B7C7; 
+    margin: 20px auto;
+    border: 1px solid #778899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #2C3E50; 
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.footer-col {
+    margin: 15px;
+}
+
+.footer-col h3 {
+    color: #FFFFFF; 
+    margin-bottom: 10px;
+}
+
+.footer-col p {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+    .navbar nav ul {
+        margin-top: 10px;
+    }
+    .navbar nav ul li {
+        margin: 0 10px;
+    }
+
+    .hero-image-box {
+        width: 90%;
+        height: 200px;
+    }
+
+    .newsletter input {
+        width: calc(100% - 22px);
+        margin-bottom: 10px;
+    }
+    .newsletter button {
+        width: 100%;
+    }
+
+    .donor-form {
+        max-width: 90%;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Médico Primario - Básico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">Red Stream</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca De</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1>BIENVENIDO A SERVICIO MÉDICO PRIMARIO</h1>
+            <p>Conectando a los donantes...</p>
+            <p>Nuestra misión es cerrar la brecha entre los donantes de sangre y los receptores, brindando una experiencia fluida y eficiente para ambas partes.</p>
+            <p>Puedes confiar en nosotros, ofrecemos el mejor servicio...</p>
+            <div class="hero-image-box">
+                </div>
+            <div class="newsletter">
+                <input type="email" placeholder="Ingresa tu correo electronico...">
+                <button>OBTENER RESPUESTA DE VUELTA</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="find-donor-section">
+        <div class="container">
+            <h2>ENCUENTRA AL MEJOR DONANTE PARA TI</h2>
+            <h3>ENCONTRAR DONANTE</h3>
+            <form class="donor-form">
+                <div class="form-group">
+                    <label for="nombre">NOMBRE:</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">TELÉFONO:</label>
+                    <input type="text" id="telefono">
+                </div>
+                <div class="form-group">
+                    <label for="correo">CORREO:</label>
+                    <input type="text" id="correo">
+                </div>
+                <div class="form-group">
+                    <label for="tipo-sangre">Tipo de Sangre:</label>
+                    <select id="tipo-sangre">
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad">
+                </div>
+                <div class="form-group">
+                    <label for="region">Región:</label>
+                    <input type="text" id="region">
+                </div>
+                <button type="submit" class="btn-submit">ENCONTRAR DONANTE</button>
+            </form>
+
+            <h3 class="timeline-title">Línea de Tiempo de Donaciones</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p>15 de junio, 2025</p>
+                    <p>Campaña en Hospital General - CDMX, 9:00 AM - 2:00 PM</p>
+                </div>
+                <div class="timeline-item">
+                    <p>20 de junio, 2025</p>
+                    <p>Unidad Móvil en Parque Central, 10:00 AM - 4:00 PM</p>
+                </div>
+                <div class="timeline-item">
+                    <p>25 de junio, 2025</p>
+                    <p>Donación en UNAM - Facultad de Medicina, 8:00 AM - 1:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="activities-table-section">
+        <div class="container">
+            <h2>Actividades de Donación de Sangre - UNA Puno</h2>
+            <div class="activity-list-una">
+                <p>1 Campaña "Dona Sangre, Dona Vida" - Departamento Médico UNA Puno</p>
+                <p>2 Jornada de Donación - Facultad de Ciencias Biológicas</p>
+                <p>3 Colecta en el Auditorio de Aseguramiento Público - DIRESA Puno</p>
+                <p>4 Evento en el Hospital Regional Manuel Núñez Butron</p>
+                <p>5 Campaña en la Facultad de Medicina Humana</p>
+                <p>6 Donación en la Facultad de Ingeniería</p>
+                <p>7 Actividad en la Facultad de Ciencias Sociales</p>
+                <p>8 Campaña en la Facultad de Derecho y Ciencias Políticas</p>
+                <p>9 Jornada en la Facultad de Ciencias de la Salud</p>
+                <p>10 Evento en la Facultad de Ciencias de la Educación</p>
+            </div>
+
+            <h2>Actividades de Donación de Sangre</h2>
+            <div class="table-controls">
+                <label>Mostrar
+                    <select><option>10</option></select>
+                    entradas
+                </label>
+                <div class="search-box">
+                    <label for="table-search">Buscar:</label>
+                    <input type="text" id="table-search">
+                </div>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Fecha</th>
+                            <th>Hora</th>
+                            <th>Ubicación</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Campaña en Hospital General</td>
+                            <td>15 de junio, 2025</td>
+                            <td>9:00 AM - 2:00 PM</td>
+                            <td>Hospital General CDMX</td>
+                            <td><a href="#">Ver</a></td>
+                        </tr>
+                        <tr>
+                            <td>Donación en Universidad UNAM</td>
+                            <td>25 de junio, 2025</td>
+                            <td>8:00 AM - 1:00 PM</td>
+                            <td>Facultad de Medicina, UNAM</td>
+                            <td><a href="#">Ver</a></td>
+                        </tr>
+                        <tr>
+                            <td>Unidad Móvil en Parque Central</td>
+                            <td>20 de junio, 2025</td>
+                            <td>10:00 AM - 4:00 PM</td>
+                            <td>Parque Central</td>
+                            <td><a href="#">Ver</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-pagination">
+                <span>Mostrando 1 a 3 de 3 entradas</span>
+                <a href="#">Anterior</a>
+                <a href="#">Siguiente</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-section">
+        <div class="container">
+            <h2>SOBRE NOSOTROS</h2>
+            <h3>Nos preocupamos por tus seres queridos</h3>
+            <p>En SERVICIO MEDICO PRIMARIO, nos apasiona conectar a los donantes de sangre con los receptores y cerrar la brecha en la industria de la salud.</p>
+            <p>Nuestra misión es brindar una experiencia fluida y eficiente tanto para los donantes como para los receptores, garantizando el acceso oportuno a transfusiones de sangre que salvan vidas.</p>
+            <p>Nos esforzamos por crear una comunidad que promueva la empatía, el apoyo y la solidaridad entre personas comprometidas con marcar la diferencia.</p>
+            <p>Ya seas un posible donante o alguien que necesita sangre, estamos aquí para ayudarte en cada paso del camino.</p>
+            <a href="#" class="read-more-btn">LEER MÁS SOBRE NOSOTROS</a>
+            <div class="about-image-box">
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-col">
+                <h3>Servicio Medico Primario</h3>
+                <p>Cuando gira, cuando da vueltas Cuando remolina, cuando pirueta Dos pequeñas y</p>
+                <p>hermosas niñas Mirando perplejas, aturdidas Sé que esto te confunde.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Otros Enlaces</h3>
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">Find donor</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <li><a href="#">Login/Registro</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Otros Servicios</h3>
+                <ul>
+                    <li><a href="#">A tu dispocición...</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contactanos</h3>
+                <address>
+                    Universidad Nacional del Altiplano,<br>
+                    Puno, Perú
+                </address>
+                <p>+51 918329925</p>
+                <p>24 X 7:</p>
+                <p>Servicio 365 Dias al Año</p>
+                <p>jheider.mm9@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
